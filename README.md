@@ -8,6 +8,9 @@ Download the .RIS file from your archive first, followed by the full text in PDF
 
 By default, the .xlsx sheet is created in the same folder as your downloaded items.
 
+**GUI Usage**
+
+<img width="2188" height="1324" alt="Screenshot 2026-05-11 at 8 46 29 AM" src="https://github.com/user-attachments/assets/c70eb19a-5030-4796-b06d-821cd8ad2774" />
 
 
 
