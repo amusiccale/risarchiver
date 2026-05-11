@@ -9,6 +9,8 @@ Download the .RIS file from your archive first, followed by the full text in PDF
 By default, the .xlsx sheet is created in the same folder as your downloaded items.
 
 
+
+
 **Command Line Usage:**
 
 usage: ris-archiver [-h] [--folder FOLDER | --ris RIS [RIS ...]] [--xlsx XLSX]
@@ -22,21 +24,33 @@ association, duplicate flagging, and skip-processed.
 
 options:
   -h, --help            show this help message and exit
+  
   --folder FOLDER       Folder containing .ris and .pdf/.txt files.
+  
   --ris RIS [RIS ...]   One or more .ris files to process.
+  
   --xlsx XLSX           Output .xlsx path OR filename (default: archive.xlsx
                         in outputfolder/input folder).
+                        
   --outputfolder OUTPUTFOLDER
                         Output folder for .xlsx when --xlsx is a filename or
                         omitted.
+                        
   --sheet SHEET         Sheet name (default: Archive).
+  
   --auto-pdf            Auto-associate PDFs by timestamp (soonest AFTER RIS
                         time).
+                        
   --no-auto-pdf         Disable auto PDF association.
+  
   --flag-duplicates     Flag duplicates (append anyway; mark Duplicate? and
                         Duplicate Key).
+                        
   --no-flag-duplicates  Disable duplicate flagging.
+  
   --skip-processed      Skip RIS files already logged as processed in workbook
                         metadata sheet.
+                        
   --no-skip-processed   Do not skip processed RIS files.
+  
   --columns COLUMNS     Comma-separated column list.
